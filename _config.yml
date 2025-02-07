@@ -30,9 +30,19 @@ twitter_username: icleytonsantos
 github_username:  stunerx
 
 # Build settings
-theme: minima
+remote_theme: chesterhow/tale
+
+permalink:  /:year-:month-:day/:title
+paginate:   5
+
+include:
+  - _pages
+
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-remote-theme
+  - jekyll-tagging
 
 # Exclude from processing.
 # The following items will not be processed, by default.
