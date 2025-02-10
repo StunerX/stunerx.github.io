@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Tratamento de erros globais com Middleware e ProblemDetails no ASP.NET Core"
+date:   2025-02-10 18:03:51 -0300
+categories: [rest, dotnet, C#]
+---
+
+
 # Tratamento de erros globais com Middleware e ProblemDetails no ASP.NET Core
 
 ## 1. Introdução
