@@ -10,7 +10,7 @@ Quando APIs RESTful encontram erros, é importante fornecer respostas padronizad
 
 Para garantir que APIs RESTful forneçam mensagens de erro detalhadas e padronizadas, precisamos de uma solução robusta. É aqui que o `ProblemDetails` entra como uma ferramenta essencial.
 
-`ProblemDetails` é uma classe do ASP.NET Core baseada na especificação **RFC 7807**, que define um formato padrão para respostas de erro em APIs RESTful. O objetivo é garantir que todas as respostas de erro sigam uma estrutura consistente, facilitando a depuração e automatização pelos clientes.
+`ProblemDetails` é uma classe do ASP.NET Core baseada na **[Especificação RFC 7807](https://datatracker.ietf.org/doc/html/rfc7807)**, que define um formato padrão para respostas de erro em APIs RESTful. O objetivo é garantir que todas as respostas de erro sigam uma estrutura consistente, facilitando a depuração e automatização pelos clientes.
 
 ### **Exemplo visual de uma resposta de erro:**
 ```json
